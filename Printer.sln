@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{5a93f565-0fdd-46c1-827a-bea4554bfdff}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterScreens", "Printer\PrinterScreens\PrinterScreens.csproj", "{5926b19e-f548-4309-95b3-caed24327d27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A93F565-0FDD-46C1-827A-BEA4554BFDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A93F565-0FDD-46C1-827A-BEA4554BFDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A93F565-0FDD-46C1-827A-BEA4554BFDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A93F565-0FDD-46C1-827A-BEA4554BFDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5926B19E-F548-4309-95B3-CAED24327D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5926B19E-F548-4309-95B3-CAED24327D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5926B19E-F548-4309-95B3-CAED24327D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5926B19E-F548-4309-95B3-CAED24327D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
