@@ -1,0 +1,19 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="PrinterScreens.UserControl1"
+	x:Name="UserControl"
+	d:DesignWidth="269" d:DesignHeight="49">
+	<UserControl.Resources>
+		<Storyboard x:Key="OnMouseLeftButtonUp1"/>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle Fill="White" Stroke="Black" RadiusX="3" RadiusY="3"/>
+		<Image HorizontalAlignment="Left" Margin="3,0,0,1" Source="ic_description_64.png" Stretch="Fill" Width="56" RenderTransformOrigin="0.036,0.125"/>
+		<TextBlock Margin="67,11,75,14" Style="{DynamicResource BasicTextBlock-Sketch}"><Run Language="ru-ru" Text="Печать документов"/></TextBlock>
+	</Grid>
+</UserControl>

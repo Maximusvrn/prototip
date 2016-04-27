@@ -1,0 +1,41 @@
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\bin\Debug\Printer.Screens.dll
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\bin\Debug\Printer.Screens.pdb
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\PrinterScreens.csprojResolveAssemblyReference.cache
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Screen_1.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\SketchStyles.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Screen_1.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens_MarkupCompile.cache
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.g.resources
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.dll
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.pdb
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\UserControl1.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\UserControl1.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Document.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\photo.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Settings.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\UserControl2.baml
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Document.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\photo.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\Settings.g.cs
+C:\Users\Станислав\Documents\Expression\Blend 4\Projects\Printer\Printer\PrinterScreens\obj\Debug\UserControl2.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\bin\Debug\Printer.Screens.dll
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\bin\Debug\Printer.Screens.pdb
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\PrinterScreens.csprojResolveAssemblyReference.cache
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Document.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\photo.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Screen_1.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Settings.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\SketchStyles.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\UserControl1.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\UserControl2.baml
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Document.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\photo.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Screen_1.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Settings.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\UserControl1.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\UserControl2.g.cs
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens_MarkupCompile.cache
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.g.resources
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.dll
+C:\Users\Maxim\Desktop\учеба\Printer\Printer\PrinterScreens\obj\Debug\Printer.Screens.pdb

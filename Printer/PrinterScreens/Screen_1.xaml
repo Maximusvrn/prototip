@@ -1,0 +1,213 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="Screen_1_Name"
+	x:Class="PrinterScreens.Screen_1"
+	Width="279" Height="492" mc:Ignorable="d">
+	<UserControl.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="White" RadiusY="3" RadiusX="3" Stroke="Black"/>
+							<ContentPresenter x:Name="contentPresenter" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="Gray"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="White" RadiusY="3" RadiusX="3" Stroke="Black"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="Gray"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle3" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="White" RadiusY="3" RadiusX="3" Stroke="Black"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="Gray"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle4" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" RenderTransformOrigin="0.036,0.125" Source="ic_description_64.png" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0,13,0,8"/>
+								<Setter Property="OpacityMask" TargetName="image" Value="#FFF9F9F9"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle5" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="ic_now_wallpaper_64.png" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0,14"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle6" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="ic_email_64.png" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0,14,0,16"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle7" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="ic_list_64.png" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0,18,0,14"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle8" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="ic_local_print_shop_64.png" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0,15"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot" Background="White" Width="279" Height="492">
+		<Button Content="Печать документов" Height="49" Margin="77,57,10,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" FontFamily="/Printer.Screens;component/Fonts/#Buxton Sketch" FontSize="18.667">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="PrinterScreens.Document"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Печать фотографий" Height="49" Margin="78,120,10,0" Style="{DynamicResource ButtonStyle2}" VerticalAlignment="Top" FontSize="18.667" FontFamily="/Printer.Screens;component/Fonts/#Buxton Sketch">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="PrinterScreens.photo"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="8,59,0,0" Style="{DynamicResource ButtonStyle4}" VerticalAlignment="Top" Width="56">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="PrinterScreens.Document"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Button" HorizontalAlignment="Left" Height="53" Margin="9,118,0,0" Style="{DynamicResource ButtonStyle5}" VerticalAlignment="Top" Width="59">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="PrinterScreens.photo"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Button" HorizontalAlignment="Left" Height="64" Margin="11,0,0,154" Style="{DynamicResource ButtonStyle7}" VerticalAlignment="Bottom" Width="64">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="PrinterScreens.Settings"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock Height="32" Margin="10,0,85,209" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" FontSize="18.667"><Run Language="ru-ru" Text="Настройки печати"/></TextBlock>
+		<TextBlock Height="26" Margin="10,0,127,122" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Bottom" FontSize="18.667"><Run Language="ru-ru" Text="Принтер:"/></TextBlock>
+		<TextBlock Height="24" Margin="92,0,14,63" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Hp Deskjet F4213" VerticalAlignment="Bottom"/>
+		<TextBlock Height="31" Margin="11,6,21,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="18.667"><Run Language="ru-ru" Text="Управление принтером"/></TextBlock>
+		<Image HorizontalAlignment="Left" Height="64" Margin="13,0,0,48" Source="ic_local_print_shop_64.png" Stretch="Fill" VerticalAlignment="Bottom" Width="64"/>
+	</Grid>
+</UserControl>
